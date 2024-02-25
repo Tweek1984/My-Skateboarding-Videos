@@ -1,0 +1,129 @@
+p {
+    color: blueviolet;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: pink;
+}
+
+
+header {
+    background-color: plum;
+    color: peachpuff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color:peachpuff;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section li a {
+    margin-bottom: 20px;
+    color: blueviolet;
+
+}
+
+
+footer {
+    background-color: #333;
+    color: peachpuff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+    header {
+        font-size: 18px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+    main {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .video-container {
+      flex-direction: column;
+    }
+    .video-container iframe {
+      width: 100%;
+    }
+  }
+
+ .video-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+  }
+  .video-container iframe {
+    width: 48%; 
+    height: 300px; 
+  }
+ 
+  .container {
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px;
+  }
+  
+  img {
+    float: left; 
+    max-width: 50%; 
+    height: auto; 
+    margin-right: 20px; 
+  }
+  
+  p {
+    overflow: hidden; 
+  }
+  
+ 
+  @media only screen and (max-width: 768px) {
+    img {
+      float: none; 
+      max-width: 100%;  
+      margin-right: 0; 
+    }
+  }
+  
+
+  h1 {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: purple;
+  }
+  
+  a {
+    color: blueviolet;
+  }
